@@ -1,5 +1,5 @@
 ---
 - name: Task 1 - Gather Facts
-  import_tasks: gather_facts.yaml
-
-  
+  ##import_tasks: gather_facts.yaml
+## it will run the gather_facts yaml file, so the instructions should be in there
+  import_tasks: login_banner.yaml
