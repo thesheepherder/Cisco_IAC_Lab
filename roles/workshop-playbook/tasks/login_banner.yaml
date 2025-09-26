@@ -1,8 +1,8 @@
 ---
 - name: Set login banner
   cisco.ios.ios_banner:
-  banner: login
-  text: "
+    banner: login
+    text: "
     ################################################
     #                                              #
     #   You Have successfully entered this system  #
