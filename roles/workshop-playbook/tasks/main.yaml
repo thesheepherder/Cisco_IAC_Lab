@@ -1,13 +1,5 @@
 ---
-- name: "Task 1: Gather Facts"
+- name: Task 1 - Gather Facts
   import_tasks: gather_facts.yaml
 
-  cisco.ios.ios_facts:
-    gather_subset: all
-
-- name: Show Hostname and OS Version
-  debug:
-    msg:
-      - "Hostname: {{ansible_net_hostname}}"
-      - "IOS Version: {{ansible_net_version}}"
-      - "Model: {{ansible_net_model}}"
+  
